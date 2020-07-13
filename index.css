@@ -119,13 +119,14 @@ footer{
   color: white;
 }
 
-@media only screen and (max-width: 670px){
+@media only screen and (max-width: 725px){
   .projects {
     height: 80vh;
+    padding: 2% 20%;
   }
 
   .carousel-item {
-    height: 60vh;
+    height: 50vh;
   }
 
   .box-team{
@@ -133,16 +134,26 @@ footer{
   }
 }
 
+@media only screen and (max-width: 730px) and (min-width: 575px){
+  .nav-item {
+    margin: 0;
+    font-size: 14px;
+  }
+}
+
 @media only screen and (max-width: 480px){
+  .navbar {
+    background-color: white !important;
+  }
   content {
     font-size: 12px;
   }
   #about-us img {
     width: 100%;
-    padding: 0;
+    padding: 10% 0%;
   }
   .projects {
-    padding:12% 5%;
+    padding:5% 5%;
     height: 60vh;
   }
 
